@@ -45,7 +45,7 @@ export default function Home() {
         </div>
 
       </div>
-      <div className=' p-5  md:p-10  z-10 overflow-x-hidden space-y-3 w-full flex  md:mx-[10%] flex-col relative'>
+      <div className=' bg-quotes bg-top bg-customsm md:bg-customs md:bg-custom bg-no-repeat  p-5  md:p-10  z-10 overflow-x-hidden space-y-3 w-full flex  md:mx-[10%] flex-col relative'>
         <div className='md:px-0 px-7 md:text-start text-center text-xl md:text-xl xl:line lg:text-2xl xl:text-3xl w-full md:w-3/5 tracking-wide font-light '>
           {data[select].quotes}
         </div>
